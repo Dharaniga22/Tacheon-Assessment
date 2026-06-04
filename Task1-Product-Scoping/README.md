@@ -10,7 +10,7 @@ This task focuses on scoping a solution for a common challenge faced by marketin
 
 
 
-The proposed solution is \*\*Marketing Performance Hub\*\*, a lightweight internal dashboard that consolidates marketing data from existing platforms and presents it in a single, easy-to-understand view.
+The proposed solution is **Marketing Performance Hub**, a lightweight internal dashboard that consolidates marketing data from existing platforms and presents it in a single, easy-to-understand view.
 
 
 
