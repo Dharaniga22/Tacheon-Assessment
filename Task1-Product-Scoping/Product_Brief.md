@@ -1,8 +1,8 @@
-\# Product Brief: Marketing Performance Hub
+# Product Brief: Marketing Performance Hub
 
 
 
-\## Background
+## Background
 
 
 
@@ -18,7 +18,7 @@ Because of this, there is no consistent or efficient way to understand marketing
 
 
 
-\## Problem Statement 
+## Problem Statement
 
 
 
@@ -39,11 +39,14 @@ The team needs a solution that works with existing tools and workflows while imp
 
 
 
-\## Primary User
+## Primary User
 
 
 
-\### Marketing Analyst
+### Marketing Analyst
+
+
+
 The marketing analyst is the primary user because they spend most of their time gathering data from different platforms and preparing performance summaries.
 
 
@@ -57,11 +60,13 @@ Key Needs:
 
 
 
-\## Secondary User
+## Secondary User
 
 
 
-\###Marketing Manager
+###Marketing Manager
+
+
 
 The marketing manager needs a high-level view of performance to support decision-making and client discussions.
 
@@ -75,7 +80,7 @@ Key Needs:
 
 
 
-\## Goal
+## Goal
 
 
 
@@ -92,7 +97,7 @@ The tool should allow users to:
 
 
 
-\## Proposed Solution - Marketing Performance Hub
+## Proposed Solution - Marketing Performance Hub
 
 
 
@@ -125,7 +130,7 @@ The dashboard would help users:
 
 
 
-\## Data Sources
+## Data Sources
 
 
 
@@ -146,7 +151,7 @@ These sources provide the core data required to track spend, conversions, impres
 
 
 
-\## Version 1 Scope (Minimum Viable Product)
+## Version 1 Scope (Minimum Viable Product)
 
 
 
@@ -154,7 +159,7 @@ The first version of the tool focuses on delivering a simple and reliable way to
 
 
 
-\### Included in V1
+### Included in V1
 
 
 
@@ -168,7 +173,7 @@ The first version of the tool focuses on delivering a simple and reliable way to
 
 
 
-\### Explicitly Out of Scope for V1
+### Explicitly Out of Scope for V1
 
 
 
@@ -182,7 +187,7 @@ The first version of the tool focuses on delivering a simple and reliable way to
 
 
 
-\### Data \& Technical Approach
+### Data \& Technical Approach
 
 
 
@@ -193,7 +198,7 @@ The first version of the tool focuses on delivering a simple and reliable way to
 
 
 
-\### User Interaction Flow
+### User Interaction Flow
 
 
 
@@ -205,7 +210,7 @@ The first version of the tool focuses on delivering a simple and reliable way to
 
 
 
-\### Objective of V1
+### Objective of V1
 
 
 
@@ -213,7 +218,7 @@ The goal of this version is to reduce manual reporting effort and provide a cons
 
 
 
-\## Success Metrics
+## Success Metrics
 
 
 
@@ -227,7 +232,7 @@ The success of Version 1 will be measured based on how effectively it reduces ma
 
 
 
-\## What Success Looks Like
+## What Success Looks Like
 
 
 
@@ -247,7 +252,7 @@ The goal is not just to show data, but to help users quickly understand what is 
 
 
 
-\## Future Enhancements
+## Future Enhancements
 
 Once the core reporting system is stable, the tool can be extended with more advanced capabilities:
 
@@ -259,7 +264,8 @@ Once the core reporting system is stable, the tool can be extended with more adv
 
 
 
-\## Conclusion
+## Conclusion
+
 
 
 The Marketing Performance Hub is designed to simplify how marketing performance is understood across channels by reducing manual effort and improve consistency in reporting.
