@@ -1,8 +1,8 @@
-\# Walkthrough – Task 2 Data Pipeline
+# Walkthrough – Task 2 Data Pipeline
 
 
 
-\## Introduction
+## Introduction
 
 
 
@@ -14,7 +14,7 @@ Rather than focusing only on data extraction, I approached the task as a simplif
 
 
 
-\## Why I Chose Open-Meteo
+## Why I Chose Open-Meteo
 
 
 
@@ -26,7 +26,7 @@ The API response contains nested JSON data, making it suitable for demonstrating
 
 
 
-\## Data Extraction
+## Extraction Approach
 
 
 
@@ -39,16 +39,18 @@ To make the solution more robust, I added:
 
 
 * Parameterized API requests
+
 * Exception handling
+
 * Logging statements
 
 
 
-This helps ensure that failures can be easily detected and diagnosed.
+This helps ensure that failures can be detected and diagnosed easily.
 
 
 
-\## Data Transformation
+## Transformation Decisions
 
 
 
@@ -61,7 +63,9 @@ I converted the response into a pandas DataFrame and extracted:
 
 
 * Time
+
 * Temperature
+
 * Humidity
 
 
@@ -71,8 +75,11 @@ After flattening the data, I performed:
 
 
 * Datetime conversion
+
 * Numeric conversion
+
 * Null handling
+
 * Validation checks
 
 
@@ -81,7 +88,7 @@ This ensures the final dataset is suitable for analysis.
 
 
 
-\## Feature Engineering
+## Feature Engineering
 
 
 
@@ -105,7 +112,7 @@ Although simple, it demonstrates how raw data can be enhanced before storage.
 
 
 
-\## BigQuery Setup
+## BigQuery Design
 
 
 
@@ -129,11 +136,11 @@ chennai\_weather
 
 
 
-The transformed DataFrame is loaded into BigQuery using the Google Cloud BigQuery Python client..
+The transformed DataFrame is loaded directly into BigQuery using the Google Cloud BigQuery Python client.
 
 
 
-\## SQL Analysis
+## SQL Analysis
 
 
 
@@ -145,7 +152,7 @@ This demonstrates that the data is not only stored successfully but is also quer
 
 
 
-\## What I Would Improve With More Time
+## What I Would Improve With More Time
 
 
 
@@ -154,15 +161,20 @@ If more time were available, I would:
 
 
 * Add configuration files for parameters.
+
 * Create automated unit tests.
+
 * Add retry logic for API failures.
+
 * Implement incremental data loading.
+
 * Add dashboard visualizations.
+
 * Schedule the pipeline using Airflow.
 
 
 
-\## Final Thoughts
+## Final Thoughts
 
 
 
@@ -171,4 +183,6 @@ My focus throughout this task was to build a practical and maintainable pipeline
 
 
 The final result demonstrates the complete ETL process: extracting data from an external source, transforming it into a usable format, loading it into BigQuery, and generating meaningful analytical outputs through SQL.
+
+
 
