@@ -39,11 +39,8 @@ except requests.exceptions.RequestException as e:
 
 # Inspect Data Structure
 
-print("Available Keys:")
-print(data.keys())
-
-raw_hourly = data["hourly"]
-print(raw_hourly.keys())
+logging.info(f"Available Keys: {list(data.keys())}")
+logging.info(f"Hourly Keys: {list(raw_hourly.keys())}")
 
 # Data Transformation - Flattening
 
