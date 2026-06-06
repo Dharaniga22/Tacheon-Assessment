@@ -1,5 +1,8 @@
 # Walkthrough: Marketing Performance Hub
 
+## Video Demonstration
+https://www.loom.com/share/00c95d959f574789bcaad161725e590c
+
 
 
 ## Introduction
