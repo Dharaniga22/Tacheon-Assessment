@@ -2,6 +2,12 @@
 
 
 
+## Video Demonstration
+
+https://www.loom.com/share/488ce938a78b47edb126f08dd4724752
+
+
+
 ## Introduction
 
 
@@ -39,9 +45,7 @@ To make the solution more robust, I added:
 
 
 * Parameterized API requests
-
 * Exception handling
-
 * Logging statements
 
 
@@ -63,9 +67,7 @@ I converted the response into a pandas DataFrame and extracted:
 
 
 * Time
-
 * Temperature
-
 * Humidity
 
 
@@ -75,11 +77,8 @@ After flattening the data, I performed:
 
 
 * Datetime conversion
-
 * Numeric conversion
-
 * Null handling
-
 * Validation checks
 
 
@@ -161,15 +160,10 @@ If more time were available, I would:
 
 
 * Add configuration files for parameters.
-
 * Create automated unit tests.
-
 * Add retry logic for API failures.
-
 * Implement incremental data loading.
-
 * Add dashboard visualizations.
-
 * Schedule the pipeline using Airflow.
 
 
@@ -183,6 +177,4 @@ My focus throughout this task was to build a practical and maintainable pipeline
 
 
 The final result demonstrates the complete ETL process: extracting data from an external source, transforming it into a usable format, loading it into BigQuery, and generating meaningful analytical outputs through SQL.
-
-
 
